@@ -9,6 +9,8 @@ import 'package:news/screens/search_screen.dart';
 
 class Homenews extends StatelessWidget {
   Homenews( {super.key});
+
+  //************ RANA *********
   @override
   Widget build(BuildContext context) {
     return BlocConsumer<NewsCubit, NewsStates>(
